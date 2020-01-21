@@ -1,11 +1,11 @@
 # Site settings
-author: Harley McDowell
-title: 
+author: Harley
+title: Learning curve
 header-img: img/home-bg.png
 email: hmcdowell95@gmail.com
-copyright_name: Harley McDowell
+copyright_name: Harley
 description: > # this means to ignore newlines until "baseurl:"
-  
+  My path to learn code
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  hmcdowell95
