@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Sinatra and CRUD"
-date:       2020-05-03 16:20:39 +0000
+date:       2020-05-03 12:20:40 -0400
 permalink:  sinatra_and_crud
 ---
 
