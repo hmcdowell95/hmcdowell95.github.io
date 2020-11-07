@@ -1,0 +1,9 @@
+---
+layout: post
+title:      "React Final Project"
+date:       2020-11-07 05:31:25 +0000
+permalink:  react_final_project
+---
+
+
+Here I am, my Final final project. React was great because it's still javascript and I have loved working with it. I'd like to think I put a lot of functionality into it but I can't judge myself. I have a one to many relationship between Subjects and Notecards. Many Notecards belong to one Subject. I put full CRUD on both classes. It took awhile to get my reducer, my actions, and the components handling and calling the actions to use CRUD on both subjects and notecards. On showing my Subjects each individually I ran into a problem when refreshing the page it would break. My cohert lead reminded me of ternary operator. My render function was waiting on props so my render had no props for a moment while rendering the page so while the render function was false because it didn't have any result or return it would return null and then when the function ran with props it would return the results name. Because when I was rendering the funciton before I wanted the object name, so functionResult.name. With the operator 'function ? funciton.name : null'. After putting so much functionality into my project I realized I had very few stateless functions. So I figured out how to turn my subject show component in a stateless function. I also wanted a page with all the notecard on it no matter the subject so I created a stateless container to render all the notecards using props and my notecard component. After adding more routes I realized I needed to organize my navigation so I built a stateless NavBar and threw in an about page with instrucitons. I felt really proud after finishing this project and I feel like I could add more but I ran out of time. I can't wait to finish and learn more code in a tech career.
